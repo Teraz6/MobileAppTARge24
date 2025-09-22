@@ -1,3 +1,4 @@
+using MauiPlanets.Models;
 using MauiPlanets.Services;
 
 namespace MauiPlanets.Views;
@@ -8,15 +9,20 @@ public partial class PlanetsPage : ContentPage
 
 	public PlanetsPage()
 	{
-		InitializeComponent();
+        InitializeComponent();
 	}
 
     protected override void OnAppearing()
     {
         base.OnAppearing();
 
-		//lstPopularPlanets.ItemsSource = PlanetsService.getFeaturedPlanets();
-		//lstAllPlanets.ItemsSource = PlanetsService.GetAllPlanets();
+		lstPopularPlanets.ItemsSource = PlanetsService.getFeaturedPlanets();
+		lstAllPlanets.ItemsSource = PlanetsService.GetAllPlanets();
+    }
+
+    async void Planets_SelectionChanged(System.Object sender, Microsoft.Maui.Controls.SelectedItemChangedEventArgs e)
+    {
+        //await Navigation.PushAsync(new PlanetsDetailsPage(e.CurrentSelection.First() as Planet));
     }
 
     async void ProfilePic_Clicked(System.Object sender, System.EventArgs e)
