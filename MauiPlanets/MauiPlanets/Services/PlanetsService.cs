@@ -180,6 +180,99 @@ namespace MauiPlanets.Services
                     "https://solarsystem.nasa.gov/system/feature_items/images/84_neptune_carousel_2.jpg"
                 }
             },
+
+            new()
+            {
+                Name = "Pluto",
+                Subtitle = "Former planet",
+                HeroImage = "pluto.png",
+                Description = "Pluto is a dwarf planet in the Kuiper belt, a ring of bodies beyond the orbit of Neptune. " +
+                "It is the ninth-largest and tenth-most-massive known object to directly orbit the Sun. It is " +
+                "the largest known trans-Neptunian object by volume by a small margin, but is less massive than Eris. " +
+                "Like other Kuiper belt objects, Pluto is made primarily of ice and rock and is much smaller than the inner planets. " +
+                "Pluto has roughly one-sixth the mass of the Moon and one-third of its volume. Originally considered a planet, " +
+                "its classification was changed when astronomers adopted a new definition of planet.",
+                AccentColorStart = Color.FromArgb("#1B263B"),
+                AccentColorEnd = Color.FromArgb("#778DA9"),
+                Images = new()
+                {
+                    "https://science.nasa.gov/wp-content/uploads/2024/03/pluto-new-horizons-pia20291-16x9-1.jpg",
+                    "https://rare-gallery.com/thumbs/4538869-pluto-universe-stars-planet-space.jpg",
+                    "https://rare-gallery.com/thumbs/567019-pluto-planet.jpg"
+                }
+            },
+
+            new()
+            {
+                Name = "Ceres",
+                Subtitle = "Dwarf planet",
+                HeroImage = "ceres.png",
+                Description = "Ceres is a dwarf planet in the main asteroid belt between the orbits of Mars and Jupiter. " +
+                "It was the first known asteroid, discovered on 1 January 1801 by Giuseppe Piazzi at Palermo Astronomical " +
+                "Observatory in Sicily, and announced as a new planet. Ceres was later classified as an asteroid and more recently " +
+                "as a dwarf planet, the only one not beyond the orbit of Neptune and the largest that does not have a moon. " +
+                "Ceres's diameter is about a quarter that of the Moon",
+                AccentColorStart = Color.FromArgb("#4E342E"),
+                AccentColorEnd = Color.FromArgb("#D7CCC8"),
+                Images = new()
+                {
+                    "https://www.messagetoeagle.com/wp-content/uploads/2018/10/ceres009.jpg",
+                    "https://nineplanets.org/wp-content/uploads/2019/11/Ceres-DwarfPlanet-Inside-768x768.jpg"
+                }
+            },
+
+            new()
+            {
+                Name = "Haumea",
+                Subtitle = "Dwarf planet",
+                HeroImage = "haumea.png",
+                Description = "Haumea is a dwarf planet located beyond Neptune's orbit.It was discovered in 2004 by a team headed by " +
+                "Mike Brown of Caltech at the Palomar Observatory, and formally announced in 2005 by a team headed by José Luis Ortiz Moreno " +
+                "at the Sierra Nevada Observatory in Spain, who had discovered it that year in precovery images taken by the team in 2003. " +
+                "From that announcement, it received the provisional designation 2003 EL61.",
+                AccentColorStart = Color.FromArgb("#263238"),
+                AccentColorEnd = Color.FromArgb("#607D8B"),
+                Images = new()
+                {
+                    "https://nineplanets.org/wp-content/uploads/2020/11/haumea-2-768x614.jpg",
+                    "https://solarstory.net/img/articles/middle/artists-impression-of-the-dwarf-planet-haumea.jpg"
+                }
+            },
+
+            new()
+            {
+                Name = "MakeMake",
+                Subtitle = "Dwarf planet",
+                HeroImage = "makemake.png",
+                Description = "Makemake is a recently discovered, March of 2005, dwarf planet located in the Kuiper Belt. " +
+                "Slightly smaller than Pluto, Makemake's surface consists of primarily frozen nitrogen, ethane, and methane. " +
+                "Makemake's orbital path around the sun is approximately 310 Earth years and it, along with Eris, is responsible " +
+                "for the new classifications of what constitutes as a planet.",
+                AccentColorStart = Color.FromArgb("#6D1B1B"),
+                AccentColorEnd = Color.FromArgb("#EF6C00"),
+                Images = new()
+                {
+                    "https://solarstory.net/img/articles/middle/artists-impression-of-the-dwarf-planet-makemake.jpg",
+                    "https://planetfacts.org/wp-content/uploads/2023/12/dwarf_planet_makemake-300x300.jpg"
+                }
+            },
+
+            new()
+            {
+                Name = "Eris",
+                Subtitle = "Dwarf planet",
+                HeroImage = "eris.png",
+                Description = "Eris the next dwarf planet within the Kuiper Belt is Eris and it has the most extreme orbital path " +
+                "that extends well outside of our solar system. It is believed that its surface temperatures varies from -359°F (-217°C) to -405°F (-243°C). " +
+                "Its surface is covered in ice but as it comes closer to the sun and the ice melts, it's surface is closely similar to Pluto's.",
+                AccentColorStart = Color.FromArgb("#1C313A"),
+                AccentColorEnd = Color.FromArgb("#B3E5FC"),
+                Images = new()
+                {
+                    "https://solarstory.net/img/articles/big/artists-impression-of-the-dwarf-planet-eris.jpg",
+                    "https://www.spaceexploration92.com/wp-content/uploads/2020/01/IMG_20191130_210142-768x530.jpg"
+                }
+            },
         };
 
 

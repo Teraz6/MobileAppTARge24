@@ -11,8 +11,8 @@ namespace MauiPlanets
     public partial class App : Application
     {
 
-        const int WindowWidth = 1080;
-        const int WindowHeight = 1920;
+        const int WindowWidth = 540;
+        const int WindowHeight = 1200;
 
         public App()
         {
