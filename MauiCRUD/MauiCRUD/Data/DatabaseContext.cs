@@ -5,7 +5,7 @@ namespace MauiCRUD.Data
 {
     public class DatabaseContext
     {
-        private const string DbName = "CrudDbb4";
+        private const string DbName = "CrudDb6";
         private static string DbPath => Path.Combine(".", DbName);
 
         private SQLiteAsyncConnection _connection;

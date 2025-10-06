@@ -83,7 +83,6 @@ namespace MauiCRUD.ViewModels
             }
 
             var busyText = OperatingProduct.Id == 0 ? "Creating product..." : "Updating product...";
-            Thread.Sleep(3000);
             await ExecuteAsync(async () =>
             {
                 if (OperatingProduct.Id == 0)
@@ -98,6 +97,8 @@ namespace MauiCRUD.ViewModels
                         var productCopy = OperatingProduct.Clone();
 
                         var index = Products.IndexOf(OperatingProduct);
+                        Products.RemoveAt(index);
+
                         Products.Insert(index, productCopy);
                     }
                     else
